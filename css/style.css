@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.medsos {
+	padding: 15px 0;
+	background-color: #C2C206;
+}
+.medsos ul li {
+	display: inline-block;
+	color: white;
+	margin-right: 10px;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body ul {
+	font-family: helvetica;
+}
+
+header h1 {
+	
+	float: left;
+	padding: 15px 0;
+	color: #C2C206;
+}
+header ul {
+	
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block;
+	padding: 25px 40px;
+}
+header ul li a:hover {
+	background-color: #C2C206;
+	color: white;
+}
+.active {
+	background-color: #C2C206;
+	color: white;
+}
+.banner {
+	height: 65vh;
+	background-image: url('../img/kpg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+
+}
+
+section {
+	padding: 50px 0;
+}
